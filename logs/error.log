@@ -1,0 +1,48 @@
+{
+  code: 'ERR_HTTP_INVALID_STATUS_CODE',
+  level: 'error',
+  message: 'Invalid status code: undefined Invalid status code: undefined',
+  stack: 'RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined\n' +
+    '    at new NodeError (node:internal/errors:393:5)\n' +
+    '    at ServerResponse.writeHead (node:_http_server:343:11)\n' +
+    '    at ServerResponse.writeHead (/home/admin/pooria-sherek/node_modules/on-headers/index.js:44:26)\n' +
+    '    at ServerResponse._implicitHeader (node:_http_server:334:8)\n' +
+    '    at writetop (/home/admin/pooria-sherek/node_modules/express-session/index.js:276:15)\n' +
+    '    at ServerResponse.end (/home/admin/pooria-sherek/node_modules/express-session/index.js:343:16)\n' +
+    '    at ServerResponse.send (/home/admin/pooria-sherek/node_modules/express/lib/response.js:232:10)\n' +
+    '    at ServerResponse.json (/home/admin/pooria-sherek/node_modules/express/lib/response.js:278:15)\n' +
+    '    at errorBuilder (/home/admin/pooria-sherek/app/routes/web/index.js:48:35)\n' +
+    '    at Layer.handle_error (/home/admin/pooria-sherek/node_modules/express/lib/router/layer.js:71:5)',
+  label: 'right meow!',
+  timestamp: '2023-01-02T13:38:26.368Z'
+}
+{
+  level: 'error',
+  message: 'NotFoundException is not defined NotFoundException is not defined',
+  stack: 'ReferenceError: NotFoundException is not defined\n' +
+    '    at appErrorHanlder (/home/admin/pooria-sherek/bootstrap/app-error-handler.js:6:22)\n' +
+    '    at Layer.handle_error (/home/admin/pooria-sherek/node_modules/express/lib/router/layer.js:71:5)\n' +
+    '    at trim_prefix (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:326:13)\n' +
+    '    at /home/admin/pooria-sherek/node_modules/express/lib/router/index.js:286:9\n' +
+    '    at Function.process_params (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:346:12)\n' +
+    '    at Immediate.next (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:280:10)\n' +
+    '    at Immediate.<anonymous> (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:646:15)\n' +
+    '    at process.processImmediate (node:internal/timers:473:21)',
+  label: 'right meow!',
+  timestamp: '2023-01-02T13:57:20.115Z'
+}
+{
+  level: 'error',
+  message: 'NotFoundException is not defined NotFoundException is not defined',
+  stack: 'ReferenceError: NotFoundException is not defined\n' +
+    '    at appErrorHanlder (/home/admin/pooria-sherek/bootstrap/app-error-handler.js:6:22)\n' +
+    '    at Layer.handle_error (/home/admin/pooria-sherek/node_modules/express/lib/router/layer.js:71:5)\n' +
+    '    at trim_prefix (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:326:13)\n' +
+    '    at /home/admin/pooria-sherek/node_modules/express/lib/router/index.js:286:9\n' +
+    '    at Function.process_params (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:346:12)\n' +
+    '    at Immediate.next (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:280:10)\n' +
+    '    at Immediate.<anonymous> (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:646:15)\n' +
+    '    at process.processImmediate (node:internal/timers:473:21)',
+  label: 'right meow!',
+  timestamp: '2023-01-02T13:57:42.516Z'
+}

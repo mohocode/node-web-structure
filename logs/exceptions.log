@@ -1,0 +1,378 @@
+{
+  error: RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+      at new NodeError (node:internal/errors:393:5)
+      at ServerResponse.writeHead (node:_http_server:343:11)
+      at ServerResponse.writeHead (/home/admin/pooria-sherek/node_modules/on-headers/index.js:44:26)
+      at ServerResponse._implicitHeader (node:_http_server:334:8)
+      at writetop (/home/admin/pooria-sherek/node_modules/express-session/index.js:276:15)
+      at ServerResponse.end (/home/admin/pooria-sherek/node_modules/express-session/index.js:343:16)
+      at ServerResponse.send (/home/admin/pooria-sherek/node_modules/express/lib/response.js:232:10)
+      at ServerResponse.json (/home/admin/pooria-sherek/node_modules/express/lib/response.js:278:15)
+      at errorBuilder (/home/admin/pooria-sherek/app/routes/web/index.js:48:35)
+      at Layer.handle_error (/home/admin/pooria-sherek/node_modules/express/lib/router/layer.js:71:5) {
+    code: 'ERR_HTTP_INVALID_STATUS_CODE'
+  },
+  level: 'error',
+  message: 'unhandledRejection: Invalid status code: undefined\n' +
+    'RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined\n' +
+    '    at new NodeError (node:internal/errors:393:5)\n' +
+    '    at ServerResponse.writeHead (node:_http_server:343:11)\n' +
+    '    at ServerResponse.writeHead (/home/admin/pooria-sherek/node_modules/on-headers/index.js:44:26)\n' +
+    '    at ServerResponse._implicitHeader (node:_http_server:334:8)\n' +
+    '    at writetop (/home/admin/pooria-sherek/node_modules/express-session/index.js:276:15)\n' +
+    '    at ServerResponse.end (/home/admin/pooria-sherek/node_modules/express-session/index.js:343:16)\n' +
+    '    at ServerResponse.send (/home/admin/pooria-sherek/node_modules/express/lib/response.js:232:10)\n' +
+    '    at ServerResponse.json (/home/admin/pooria-sherek/node_modules/express/lib/response.js:278:15)\n' +
+    '    at errorBuilder (/home/admin/pooria-sherek/app/routes/web/index.js:48:35)\n' +
+    '    at Layer.handle_error (/home/admin/pooria-sherek/node_modules/express/lib/router/layer.js:71:5)',
+  stack: 'RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined\n' +
+    '    at new NodeError (node:internal/errors:393:5)\n' +
+    '    at ServerResponse.writeHead (node:_http_server:343:11)\n' +
+    '    at ServerResponse.writeHead (/home/admin/pooria-sherek/node_modules/on-headers/index.js:44:26)\n' +
+    '    at ServerResponse._implicitHeader (node:_http_server:334:8)\n' +
+    '    at writetop (/home/admin/pooria-sherek/node_modules/express-session/index.js:276:15)\n' +
+    '    at ServerResponse.end (/home/admin/pooria-sherek/node_modules/express-session/index.js:343:16)\n' +
+    '    at ServerResponse.send (/home/admin/pooria-sherek/node_modules/express/lib/response.js:232:10)\n' +
+    '    at ServerResponse.json (/home/admin/pooria-sherek/node_modules/express/lib/response.js:278:15)\n' +
+    '    at errorBuilder (/home/admin/pooria-sherek/app/routes/web/index.js:48:35)\n' +
+    '    at Layer.handle_error (/home/admin/pooria-sherek/node_modules/express/lib/router/layer.js:71:5)',
+  exception: true,
+  date: 'Mon Jan 02 2023 13:38:26 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 639,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/admin/pooria-sherek',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [ '/usr/local/bin/node', '/home/admin/pooria-sherek/server.js' ],
+    memoryUsage: {
+      rss: 98541568,
+      heapTotal: 67473408,
+      heapUsed: 32119512,
+      external: 19286675,
+      arrayBuffers: 18389041
+    }
+  },
+  os: { loadavg: [ 0.06, 0.13, 0.09 ], uptime: 29575.35 },
+  trace: [
+    {
+      column: 5,
+      file: 'node:internal/errors',
+      function: 'new NodeError',
+      line: 393,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: 'node:_http_server',
+      function: 'ServerResponse.writeHead',
+      line: 343,
+      method: 'writeHead',
+      native: false
+    },
+    {
+      column: 26,
+      file: '/home/admin/pooria-sherek/node_modules/on-headers/index.js',
+      function: 'ServerResponse.writeHead',
+      line: 44,
+      method: 'writeHead',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'node:_http_server',
+      function: 'ServerResponse._implicitHeader',
+      line: 334,
+      method: '_implicitHeader',
+      native: false
+    },
+    {
+      column: 15,
+      file: '/home/admin/pooria-sherek/node_modules/express-session/index.js',
+      function: 'writetop',
+      line: 276,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: '/home/admin/pooria-sherek/node_modules/express-session/index.js',
+      function: 'ServerResponse.end',
+      line: 343,
+      method: 'end',
+      native: false
+    },
+    {
+      column: 10,
+      file: '/home/admin/pooria-sherek/node_modules/express/lib/response.js',
+      function: 'ServerResponse.send',
+      line: 232,
+      method: 'send',
+      native: false
+    },
+    {
+      column: 15,
+      file: '/home/admin/pooria-sherek/node_modules/express/lib/response.js',
+      function: 'ServerResponse.json',
+      line: 278,
+      method: 'json',
+      native: false
+    },
+    {
+      column: 35,
+      file: '/home/admin/pooria-sherek/app/routes/web/index.js',
+      function: 'errorBuilder',
+      line: 48,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/admin/pooria-sherek/node_modules/express/lib/router/layer.js',
+      function: 'Layer.handle_error',
+      line: 71,
+      method: 'handle_error',
+      native: false
+    }
+  ],
+  label: 'right meow!',
+  timestamp: '2023-01-02T13:38:26.355Z'
+}
+{
+  error: ReferenceError: NotFoundException is not defined
+      at appErrorHanlder (/home/admin/pooria-sherek/bootstrap/app-error-handler.js:6:22)
+      at Layer.handle_error (/home/admin/pooria-sherek/node_modules/express/lib/router/layer.js:71:5)
+      at trim_prefix (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:326:13)
+      at /home/admin/pooria-sherek/node_modules/express/lib/router/index.js:286:9
+      at Function.process_params (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:346:12)
+      at Immediate.next (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:280:10)
+      at Immediate.<anonymous> (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:646:15)
+      at process.processImmediate (node:internal/timers:473:21),
+  level: 'error',
+  message: 'unhandledRejection: NotFoundException is not defined\n' +
+    'ReferenceError: NotFoundException is not defined\n' +
+    '    at appErrorHanlder (/home/admin/pooria-sherek/bootstrap/app-error-handler.js:6:22)\n' +
+    '    at Layer.handle_error (/home/admin/pooria-sherek/node_modules/express/lib/router/layer.js:71:5)\n' +
+    '    at trim_prefix (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:326:13)\n' +
+    '    at /home/admin/pooria-sherek/node_modules/express/lib/router/index.js:286:9\n' +
+    '    at Function.process_params (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:346:12)\n' +
+    '    at Immediate.next (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:280:10)\n' +
+    '    at Immediate.<anonymous> (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:646:15)\n' +
+    '    at process.processImmediate (node:internal/timers:473:21)',
+  stack: 'ReferenceError: NotFoundException is not defined\n' +
+    '    at appErrorHanlder (/home/admin/pooria-sherek/bootstrap/app-error-handler.js:6:22)\n' +
+    '    at Layer.handle_error (/home/admin/pooria-sherek/node_modules/express/lib/router/layer.js:71:5)\n' +
+    '    at trim_prefix (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:326:13)\n' +
+    '    at /home/admin/pooria-sherek/node_modules/express/lib/router/index.js:286:9\n' +
+    '    at Function.process_params (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:346:12)\n' +
+    '    at Immediate.next (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:280:10)\n' +
+    '    at Immediate.<anonymous> (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:646:15)\n' +
+    '    at process.processImmediate (node:internal/timers:473:21)',
+  exception: true,
+  date: 'Mon Jan 02 2023 13:57:20 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 1035,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/admin/pooria-sherek',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [ '/usr/local/bin/node', '/home/admin/pooria-sherek/server.js' ],
+    memoryUsage: {
+      rss: 97267712,
+      heapTotal: 66949120,
+      heapUsed: 31944048,
+      external: 19286301,
+      arrayBuffers: 18388667
+    }
+  },
+  os: { loadavg: [ 0.36, 0.29, 0.17 ], uptime: 30709.09 },
+  trace: [
+    {
+      column: 22,
+      file: '/home/admin/pooria-sherek/bootstrap/app-error-handler.js',
+      function: 'appErrorHanlder',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/admin/pooria-sherek/node_modules/express/lib/router/layer.js',
+      function: 'Layer.handle_error',
+      line: 71,
+      method: 'handle_error',
+      native: false
+    },
+    {
+      column: 13,
+      file: '/home/admin/pooria-sherek/node_modules/express/lib/router/index.js',
+      function: 'trim_prefix',
+      line: 326,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: '/home/admin/pooria-sherek/node_modules/express/lib/router/index.js',
+      function: null,
+      line: 286,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/home/admin/pooria-sherek/node_modules/express/lib/router/index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: '/home/admin/pooria-sherek/node_modules/express/lib/router/index.js',
+      function: 'Immediate.next',
+      line: 280,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 15,
+      file: '/home/admin/pooria-sherek/node_modules/express/lib/router/index.js',
+      function: null,
+      line: 646,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/timers',
+      function: 'process.processImmediate',
+      line: 473,
+      method: 'processImmediate',
+      native: false
+    }
+  ],
+  label: 'right meow!',
+  timestamp: '2023-01-02T13:57:20.104Z'
+}
+{
+  error: ReferenceError: NotFoundException is not defined
+      at appErrorHanlder (/home/admin/pooria-sherek/bootstrap/app-error-handler.js:6:22)
+      at Layer.handle_error (/home/admin/pooria-sherek/node_modules/express/lib/router/layer.js:71:5)
+      at trim_prefix (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:326:13)
+      at /home/admin/pooria-sherek/node_modules/express/lib/router/index.js:286:9
+      at Function.process_params (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:346:12)
+      at Immediate.next (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:280:10)
+      at Immediate.<anonymous> (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:646:15)
+      at process.processImmediate (node:internal/timers:473:21),
+  level: 'error',
+  message: 'unhandledRejection: NotFoundException is not defined\n' +
+    'ReferenceError: NotFoundException is not defined\n' +
+    '    at appErrorHanlder (/home/admin/pooria-sherek/bootstrap/app-error-handler.js:6:22)\n' +
+    '    at Layer.handle_error (/home/admin/pooria-sherek/node_modules/express/lib/router/layer.js:71:5)\n' +
+    '    at trim_prefix (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:326:13)\n' +
+    '    at /home/admin/pooria-sherek/node_modules/express/lib/router/index.js:286:9\n' +
+    '    at Function.process_params (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:346:12)\n' +
+    '    at Immediate.next (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:280:10)\n' +
+    '    at Immediate.<anonymous> (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:646:15)\n' +
+    '    at process.processImmediate (node:internal/timers:473:21)',
+  stack: 'ReferenceError: NotFoundException is not defined\n' +
+    '    at appErrorHanlder (/home/admin/pooria-sherek/bootstrap/app-error-handler.js:6:22)\n' +
+    '    at Layer.handle_error (/home/admin/pooria-sherek/node_modules/express/lib/router/layer.js:71:5)\n' +
+    '    at trim_prefix (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:326:13)\n' +
+    '    at /home/admin/pooria-sherek/node_modules/express/lib/router/index.js:286:9\n' +
+    '    at Function.process_params (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:346:12)\n' +
+    '    at Immediate.next (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:280:10)\n' +
+    '    at Immediate.<anonymous> (/home/admin/pooria-sherek/node_modules/express/lib/router/index.js:646:15)\n' +
+    '    at process.processImmediate (node:internal/timers:473:21)',
+  exception: true,
+  date: 'Mon Jan 02 2023 13:57:42 GMT+0000 (Coordinated Universal Time)',
+  process: {
+    pid: 1046,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/admin/pooria-sherek',
+    execPath: '/usr/local/bin/node',
+    version: 'v18.12.1',
+    argv: [ '/usr/local/bin/node', '/home/admin/pooria-sherek/server.js' ],
+    memoryUsage: {
+      rss: 102871040,
+      heapTotal: 67473408,
+      heapUsed: 31961808,
+      external: 19286301,
+      arrayBuffers: 18388667
+    }
+  },
+  os: { loadavg: [ 0.38, 0.3, 0.17 ], uptime: 30731.49 },
+  trace: [
+    {
+      column: 22,
+      file: '/home/admin/pooria-sherek/bootstrap/app-error-handler.js',
+      function: 'appErrorHanlder',
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/admin/pooria-sherek/node_modules/express/lib/router/layer.js',
+      function: 'Layer.handle_error',
+      line: 71,
+      method: 'handle_error',
+      native: false
+    },
+    {
+      column: 13,
+      file: '/home/admin/pooria-sherek/node_modules/express/lib/router/index.js',
+      function: 'trim_prefix',
+      line: 326,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: '/home/admin/pooria-sherek/node_modules/express/lib/router/index.js',
+      function: null,
+      line: 286,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/home/admin/pooria-sherek/node_modules/express/lib/router/index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: '/home/admin/pooria-sherek/node_modules/express/lib/router/index.js',
+      function: 'Immediate.next',
+      line: 280,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 15,
+      file: '/home/admin/pooria-sherek/node_modules/express/lib/router/index.js',
+      function: null,
+      line: 646,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/timers',
+      function: 'process.processImmediate',
+      line: 473,
+      method: 'processImmediate',
+      native: false
+    }
+  ],
+  label: 'right meow!',
+  timestamp: '2023-01-02T13:57:42.505Z'
+}
